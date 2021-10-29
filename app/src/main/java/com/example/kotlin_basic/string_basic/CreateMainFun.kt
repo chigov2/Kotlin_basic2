@@ -21,7 +21,7 @@ fun main ()
 {
     val list = (0..20).toList()
     listModify(list) {
-        println(it.sum())
+        println(it.sum()) //println(it.sum())
     }
     //println(list.sum())
 
